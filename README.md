@@ -1,6 +1,6 @@
 # NitHub
 
-##how it works
+#how it works
 ### step1 -- The Index.html file contains the script for the document upload.
 - user can upload `.txt, .doc, .docx, or .pdf` as instructed.
 - On submit --- file is sent via `POST` to the **document api** *i commented where you'd drop that sir.*
