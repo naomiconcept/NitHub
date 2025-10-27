@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NitHub|Upload Images</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Step 2: Upload Images</h2>
+
+      <form id="imageForm">
+        <input type="file" id="imageFiles" accept="image/*" multiple required />
+        <button type="submit">Upload</button>
+      </form>
+      <!-- Progress bar -->
+      <div class="progress" id="imgProgress">
+        <div class="progress-bar" id="imgProgressBar"></div>
+      </div>
+
+      <p id="imgStatus"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
