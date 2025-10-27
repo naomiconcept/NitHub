@@ -1,4 +1,4 @@
-# NitHub
+# steps? iono
 
 #how it works
 ### step1 -- The Index.html file contains the script for the document upload.
